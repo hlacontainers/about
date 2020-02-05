@@ -10,7 +10,7 @@ The repositories under this project do not contain any VTMaK or Pitch proprietar
 
 ## Docker Hub
 
-Several of the images are automatically built and made available on the Docker Hub under the `hlacontainers` namespace:
+Several of the images are automatically built and made available on the Docker Hub under the `hlacontainers` namespace, [at this link](https://hub.docker.com/u/hlacontainers):
 
 ````
 https://hub.docker.com/u/hlacontainers
