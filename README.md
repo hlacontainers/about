@@ -6,7 +6,7 @@ The project contains the docker files and build instructions for the containeriz
 - VTMaK RTI: The VTMaK RTI is a commercial and fully compliant HLA-RTI implementation. See https://www.mak.com.
 - Pitch RTI: The Pitch RTI is a commercial and fully compliant HLA-RTI implementation. See http://pitchtechnologies.com.
 
-The repositories under this project do not contain any VTMaK or Pitch proprietary product files due to the license restictions of these products. The build instructions in the various repositories indicate how to obtain the VTMaK and Pitch product files and how to build the Docker container images for these RTIs in your own Docker environment. For the Portico RTI the product files are included in the repository.
+The repositories under this project do not contain any VTMaK or Pitch proprietary product files due to the license restictions of these products. The build instructions in the various repositories indicate how to obtain the VTMaK and Pitch product files and how to build the Docker container images for these RTIs in your own Docker build environment. For the Portico RTI the product files are included in the repository.
 
 ## Docker Hub
 
@@ -18,7 +18,7 @@ https://hub.docker.com/u/hlacontainers
 
 For the Pitch and VTMaK RTIs only skeleton images are built that do not include any vendor proprietary files. These skeleton images are not executable and require the vendor proprietary files to be mounted into the container in order to create a functioning product. Instructions can be found in the respective repositories. Only for the Portico RTI complete functioning Docker images are built and published on the Docker Hub.
 
-Unfortunately, only when Pitch or VTMaK change their product license scheme (even for their Free RTI version) we may be able to inlude their product files in this repository and offer functioning container images on the Docker Hub like we already do for Portico.
+Only when Pitch or VTMaK change their product license scheme we may be able to inlude their product files in this repository and offer ready to run functioning container images on the Docker Hub like we already do for Portico. Until that time the user can only create ready to run images from his own Docker build environment.
 
 ## Getting started
 
