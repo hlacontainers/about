@@ -6,7 +6,7 @@ The project contains the docker files and build instructions for the containeriz
 - VTMaK RTI: The VTMaK RTI is a commercial and fully compliant HLA-RTI implementation. See https://www.mak.com.
 - Pitch RTI: The Pitch RTI is a commercial and fully compliant HLA-RTI implementation. See http://pitchtechnologies.com.
 
-The repositories under this project do not contain any VTMaK or Pitch proprietary product files. The build instructions in the various repositories indicate how to obtain the product files and how to build the Docker container images.
+The repositories under this project do not contain any VTMaK or Pitch proprietary product files due to the license restictions of these products. The build instructions in the various repositories indicate how to obtain the VTMaK and Pitch product files and how to build the Docker container images for these RTIs in your own Docker environment. For the Portico RTI the product files are included in the repository.
 
 ## Docker Hub
 
@@ -16,14 +16,14 @@ Several of the images are automatically built and made available on the Docker H
 https://hub.docker.com/u/hlacontainers
 ````
 
-For the commercial RTIs only skeleton images are built that do not include any vendor proprietary files. These skeleton images are not executable and require the vendor proprietary files to be mounted into the container in order to create a functioning product. Instructions can be found in the respective repositories. Only for the Portico RTI a complete functioning Docker image is built that includes all the required files.
+For the Pitch and VTMaK RTIs only skeleton images are built that do not include any vendor proprietary files. These skeleton images are not executable and require the vendor proprietary files to be mounted into the container in order to create a functioning product. Instructions can be found in the respective repositories. Only for the Portico RTI complete functioning Docker images are built and published on the Docker Hub.
 
-A complete functioning container image for the commercial RTIs can only be built and used when the required products are in place and the related license conditions are met.
+Unfortunately, only when Pitch or VTMaK change their product license scheme we may be able to inlude their product files in this repository and offer functioning container images on the Docker Hub like we already do for Portico.
 
 ## Getting started
 
 Pick your RTI of choice and navigate to the respective repositories to build the images. An example application is included in the start-me repository, including several Docker composition files.
-
+ 
 Caveats:
 
 - For the functioning of each RTI we refer to the user manual of the respective RTI.
