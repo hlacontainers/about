@@ -18,7 +18,7 @@ https://hub.docker.com/u/hlacontainers
 
 For the Pitch and VTMaK RTIs only skeleton images are built that do not include any vendor proprietary files. These skeleton images are not executable and require the vendor proprietary files to be mounted into the container in order to create a functioning product. Instructions can be found in the respective repositories. Only for the Portico RTI complete functioning Docker images are built and published on the Docker Hub.
 
-Unfortunately, only when Pitch or VTMaK change their product license scheme we may be able to inlude their product files in this repository and offer functioning container images on the Docker Hub like we already do for Portico.
+Unfortunately, only when Pitch or VTMaK change their product license scheme (even for their Free RTI version) we may be able to inlude their product files in this repository and offer functioning container images on the Docker Hub like we already do for Portico.
 
 ## Getting started
 
