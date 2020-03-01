@@ -1,6 +1,6 @@
 # About the HLA containers project
 
-The project contains the docker files and build instructions for the containerization of several [HLA Run-Time Infrastructure](https://en.wikipedia.org/wiki/High-level_architecture) products:
+The project contains the docker files and build instructions for the containerization of several [HLA Run-Time Infrastructure](https://en.wikipedia.org/wiki/High-level_architecture) components:
 
 - Portico RTI: Portico is an open source and partial HLA RTI implementation, and can be found on GitHub at https://github.com/openlvc/portico.
 - VTMaK RTI: The VTMaK RTI is a commercial and fully compliant HLA-RTI implementation. See https://www.mak.com.
